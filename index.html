@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Refinator : télécharger l’application Android</title>
+    <meta
+      name="description"
+      content="Refinator range vos mèmes pour retrouver et envoyer le bon en quelques secondes. Gratuit, sans compte, rien ne quitte votre téléphone." />
+    <link rel="icon" href="icone.png" />
+    <style>
+      :root {
+        --fond: #ffffff;
+        --carte: #f6f3fa;
+        --texte: #1f1a27;
+        --discret: #5d5668;
+        --accent: #7c2ae8;
+        --accent-texte: #ffffff;
+        --bordure: #e4dfec;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fond: #141018;
+          --carte: #1f1a27;
+          --texte: #f3f0f7;
+          --discret: #b3abbf;
+          --accent: #9b6bf2;
+          --accent-texte: #ffffff;
+          --bordure: #33293f;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--fond);
+        color: var(--texte);
+        font:
+          17px/1.6 system-ui,
+          -apple-system,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 44rem;
+        margin: 0 auto;
+        padding: 2.5rem 1rem 4rem;
+      }
+      header {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+      header img {
+        width: 72px;
+        height: 72px;
+        border-radius: 18px;
+      }
+      h1 {
+        font-size: 2rem;
+        line-height: 1.15;
+        margin: 0;
+      }
+      .accroche {
+        color: var(--discret);
+        margin: 0.25rem 0 0;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin: 2.25rem 0 0.5rem;
+      }
+      .telecharger {
+        margin: 2rem 0 0;
+        padding: 1.25rem;
+        background: var(--carte);
+        border: 1px solid var(--bordure);
+        border-radius: 16px;
+      }
+      .bouton {
+        display: inline-block;
+        padding: 0.8rem 1.4rem;
+        border-radius: 12px;
+        background: var(--accent);
+        color: var(--accent-texte);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .details {
+        color: var(--discret);
+        font-size: 0.95rem;
+        margin: 0.75rem 0 0;
+      }
+      ul,
+      ol {
+        padding-left: 1.25rem;
+      }
+      li {
+        margin: 0.3rem 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      code {
+        font-size: 0.9em;
+        overflow-wrap: anywhere;
+      }
+      footer {
+        margin-top: 3rem;
+        color: var(--discret);
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="icone.png" alt="" width="72" height="72" />
+        <div>
+          <h1>Refinator</h1>
+          <p class="accroche">Le bon mème, en quelques secondes.</p>
+        </div>
+      </header>
+
+      <section class="telecharger" aria-labelledby="titre-telecharger">
+        <h2 id="titre-telecharger" style="margin-top: 0">Télécharger pour Android</h2>
+        <a
+          class="bouton"
+          id="lien-apk"
+          href="https://github.com/OLuai/refinator-app/releases/latest/download/refinator.apk"
+          >Télécharger l’APK</a
+        >
+        <p class="details" id="version">
+          Dernière version publiée. Android 7.0 ou plus récent. Gratuit, sans publicité.
+        </p>
+        <p class="details">
+          Pas encore sur Google Play ni sur l’App Store : ces versions viendront plus tard.
+        </p>
+      </section>
+
+      <h2>Ce que fait Refinator</h2>
+      <ul>
+        <li>
+          Importez vos images, GIF et vidéos en les choisissant dans la galerie de votre téléphone,
+          un par un ou par dizaines.
+        </li>
+        <li>
+          Ou envoyez-les vers Refinator depuis WhatsApp ou votre galerie, avec le bouton « Partager
+          ». Les doublons sont repérés au passage.
+        </li>
+        <li>
+          Rangez-les avec un titre, des tags, des mots clés et des collections, et triez la
+          bibliothèque comme vous voulez.
+        </li>
+        <li>
+          Retrouvez-les en tapant quelques lettres, sans vous soucier des accents ni des majuscules.
+        </li>
+        <li>Envoyez-les d’un appui vers WhatsApp, Telegram ou toute autre application.</li>
+        <li>
+          Copiez une image pour la coller en réponse à un message précis dans votre application de
+          discussion.
+        </li>
+        <li>
+          Pour une vidéo ou un GIF, faites-en une copie temporaire : elle apparaît en tête des
+          fichiers récents quand vous joignez un fichier dans WhatsApp, Telegram ou une autre
+          application de discussion, pour la retrouver tout de suite. Elle s’efface d’elle-même au
+          bout de 10 minutes (Android 10 ou plus récent).
+        </li>
+        <li>Rien ne quitte votre téléphone : ni compte, ni serveur, ni collecte de données.</li>
+      </ul>
+
+      <h2>Installer</h2>
+      <ol>
+        <li>Téléchargez l’APK depuis votre téléphone Android, avec le bouton ci-dessus.</li>
+        <li>Ouvrez le fichier téléchargé, depuis la notification ou l’application Fichiers.</li>
+        <li>
+          Si Android le demande, autorisez votre navigateur à installer des applications («
+          Installer des applications inconnues »), puis revenez en arrière.
+        </li>
+        <li>Appuyez sur « Installer ». Refinator apparaît avec vos autres applications.</li>
+      </ol>
+      <p>
+        Android avertit toujours pour une application installée hors de Google Play. Refinator ne
+        demande aucune permission sensible : ni photos, ni appareil photo, ni micro, ni position.
+      </p>
+
+      <h2>Mettre à jour</h2>
+      <p>
+        L’application ne se met pas à jour toute seule. Pour passer à une nouvelle version,
+        téléchargez le nouvel APK et installez-le par-dessus l’ancien : votre bibliothèque est
+        conservée.
+      </p>
+
+      <h2>Vérifier le fichier</h2>
+      <p>
+        Chaque version publie l’empreinte SHA-256 de son APK dans
+        <a href="https://github.com/OLuai/refinator-app/releases">la liste des versions</a>. Elle
+        permet de vérifier que le fichier téléchargé est bien celui-là.
+      </p>
+
+      <footer>
+        <a href="confidentialite/index.html">Politique de confidentialité</a> · Refinator ne
+        collecte aucune donnée.
+      </footer>
+    </main>
+    <script>
+      // Affiche le numéro, la date et la taille de la dernière version publiée.
+      // Sans réseau ou sans réponse de GitHub, le texte par défaut reste en place.
+      fetch('https://api.github.com/repos/OLuai/refinator-app/releases/latest')
+        .then((reponse) => (reponse.ok ? reponse.json() : Promise.reject()))
+        .then((version) => {
+          const apk = (version.assets || []).find((fichier) => fichier.name === 'refinator.apk');
+          const date = new Date(version.published_at).toLocaleDateString('fr-FR', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric',
+          });
+          const taille = apk ? ` · ${(apk.size / 1048576).toFixed(0)} Mo` : '';
+          document.getElementById('version').textContent =
+            `Version ${version.tag_name.replace(/^v/, '')}, publiée le ${date}${taille}. ` +
+            'Android 7.0 ou plus récent. Gratuit, sans publicité.';
+        })
+        .catch(() => undefined);
+    </script>
+  </body>
+</html>
